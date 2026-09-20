@@ -60,7 +60,8 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.15; }
 .section-head h2 { font-size: clamp(2rem, 4vw, 2.9rem); }
 .section-sub { color: var(--muted); margin-top: 12px; }
 
-.stars { color: var(--gold); letter-spacing: 2px; }
+.stars { display: inline-flex; align-items: center; gap: 2px; line-height: 1; vertical-align: middle; }
+.stars svg { width: 1em; height: 1em; fill: var(--gold); }
 
 /* ===== Buttons ===== */
 .btn {
